@@ -1,0 +1,19 @@
+[project]
+name = "mega-sena"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "andre",email = "andrestrapazzao@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "selenium (>=4.32.0,<5.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pyarrow (>=20.0.0,<21.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
